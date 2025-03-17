@@ -1,0 +1,87 @@
+@media screen and (max-width:460px){
+    body{
+        width:70em;
+    }
+    .cartdiv5{
+        width: 70%;
+    }
+    .mainbooks{
+        width:80em;
+        font-size: 1em;;
+    }
+    html{
+        width:80em;
+    }
+    .para10{
+        font-size: 1rem;
+    }
+    .para11{
+        font-size: 0.7rem;
+    }
+    .para12{
+        font-size: 1.2rem;
+    }
+    .spanfont{
+        font-size: 0.9rem;
+    }
+    .main4{
+        height: 600%;
+    }
+    .para8{
+        font-size: 1rem;
+    }
+    .para13{
+         font-size: 1.1rem;
+    }
+    .para14{
+        font-size: 1.1rem;
+    }
+    .para15{
+        font-size: 1rem;
+    }
+}
+.div3:hover{
+    box-shadow:  0 0.4rem 1.6rem #00000026, 2rem 1.2rem 4.6rem #00000040;
+}
+@media screen and (max-width:1440px){
+    html{
+        width:1440px;
+    }
+    center{
+        width:1440px;
+    }
+    body{
+        width:1440px
+    }
+    .mainbooks{
+        width:1440px;
+    }
+    .para10{
+        font-size: 1rem;
+    }
+    .para11{
+        font-size: 0.7rem;
+    }
+    .para12{
+        font-size: 1.2rem;
+    }
+    .spanfont{
+        font-size: 0.9rem;
+    }
+    .main4{
+        height: 600%;
+    }
+    .para8{
+        font-size: 1rem;
+    }
+    .para13{
+         font-size: 1.1rem;
+    }
+    .para14{
+        font-size: 1.1rem;
+    }
+    .para15{
+        font-size: 1rem;
+    }
+    }
+}

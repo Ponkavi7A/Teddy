@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href="piggy.css"type="text/css">
+    <link rel="stylesheet" href="teddy.css" type="text/css">
+     <link rel="stylesheet" href="images.css" type="text/css">
+     <link rel="stylesheet" href="animate.css" type="text/css">
+      <link rel="stylesheet" href="input.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="piggyheader">
+         <div class="h1">
+            <div class="h1sub1"> 
+                <a href="landingpage.html"class="flex">         <img src="teddylogo.webp" class="logot"> </a>
+            </div>
+            <div class="h1sub2">
+              <input type="search" class="search1 f1" placeholder="search books"style="color:#FFF">
+            </div>
+             </div>
+        <div class="h2">
+            <div class="h1sub3">
+                <h3 id="h1sub1"> <a href="books.html"class="a1"> Books </a></h3>
+            </div>
+            <div class="h1sub3">
+                <h3><a href="store.html"class="a1"> Store</a></h3>
+            </div>
+  <div class="h1sub4">
+              <div class="trolly1">
+               <a href="empty.html"> <img src="trolly.svg.png"class="trol"> </a>
+              </div>
+          <div class="trolly2">    <p class="spanfont"> <a href="empty.html"class="none font1"> Cart</a></p></div> </div> </div>
+        </div> <center>
+    <div class="terms1">
+        <p class="termpara">Terms of service</p> <br> <br>
+        <p class="termpara2 font1">Teddy.com, its affiliated entities, and third parties that participate in the operation of this website (collectively, ”Teddy”) make this website including any applications, platforms, services,  or other resources related to, distributed on, or available through this website (collectively, the “Site”) available to you (“Customer”, “you”, or “your”) for your use subject to the terms and conditions in this Terms of Use.  Teddy provides website features and other products and services to you when you visit or shop at Teddy.com, use Teddy products or services, use Teddy applications for mobile, or use software provided by Teddy in connection with any of the foregoing (collectively, "Teddy Services"). By using the Teddy Services, you agree, on behalf of yourself and all members of your household and others who use any Service under your account, to the following conditions.  If you do not accept any of the terms of these Terms of Use, and/or you do not meet or comply with its provisions, you may not use this Site. If  these Terms of Use are considered an offer, acceptance is expressly limited to these Terms of Use.  The disclaimers, terms, and conditions in this Terms of Use are of general application and may be supplemented by additional policies, procedures, disclaimers, guidelines, rules, terms, and conditions of specific application that we disclose.  If these Terms of Use are inconsistent with terms applicable to a certain product or service, those other terms will control.  </p>
+    <br>    <p class="termpara2 font1">BY ACCESSING AND/OR USING THE SITE, YOU REPRESENT AND WARRANT THAT YOU HAVE THE RIGHT, AUTHORITY, AND CAPACITY TO ENTER INTO THE TERMS OF USE AND TO ABIDE BY ALL OF THE REQUIREMENTS SET FORTH HEREIN. YOU MAY NOT ACCESS OR USE THIS SITE OR ACCEPT THESE TERMS OF USE UNLESS YOU ARE AT LEAST 18 YEARS OLD.</p>
+        <br> <p class="termpara2 font1"><b>IMPORTANT NOTICE:</b> YOUR USE OF THIS SITE IS SUBJECT TO AN ARBITRATION PROVISION SET FORTH IN ANOTHER SECTION BELOW, YOU AND TEDDY AGREE THAT DISPUTES BETWEEN US WILL BE RESOLVED BY MANDATORY BINDING ARBITRATION, WITH VENUE IN MIAMI-DADE COUNTY, FLORIDA, AND YOU AND TEDDY WAIVE ANY RIGHT TO PARTICIPATE IN A CLASS-ACTION LAWSUIT OR CLASS-WIDE ARBITRATION.</p>
+     <br>
+     <p class="termpara2 font1"> <b>Electronic Communications </b></p>
+     <br>
+     <p class="termpara2 font1">When you use our Site, or send e-mails, text messages, use video calling and other communications from your desktop or mobile device to us, you are communicating with us electronically. You consent to receive communications from us electronically, such as e-mails, texts, mobile push notices, or notices and messages on the Site, and you can retain copies of these communications for your records. You agree that all agreements, notices, disclosures, and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing. Where required by applicable law, we will seek express prior written consent for marketing text messages or calls to you.</p>
+     <br>
+     <p class="termpara2 font1"><b>PRIVACY</b></p>
+     <br>
+     <p class="termpara2 font1">Please review our Privacy Notice, which also governs your use of the Teddy Services to understand our practices.</p>
+ <br>
+    <p class="termpara2 font1"><b>Intellectual Property Rights</b>
+    <br>
+    <p class="termpara2 font1">All content included in or made available through Teddy Services, such as text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software is the property of Teddy or its content suppliers and protected by United States and international copyright laws. The compilation of all content included in or made available through Teddy Services is the exclusive property of Teddy and protected by United States and international copyright laws</p> 
+      <br>
+      <p class="termpara2 font1"><b> Your Account </b></p>
+      <br>
+      <p class="termpara2 font1">In order to use certain features of the Site and make purchases on the Site, you must register for an account with Teddy ("Teddy Account") and provide certain information about yourself as well as provide a valid payment method associated with your account.  You represent and warrant that all information provided to set up and maintain your Teddy Account is truthful and accurate, and that you will update the information as necessary, and that your use of the Site does not violate any applicable laws, regulations, or these Terms of Use.</p>
+<br>
+<p class="termpara2 font1">You are responsible for maintaining the confidentiality of your Teddy Account login information. You agree that you are fully responsible for all activities that are associated with your Teddy Account (including but not limited to any purchases, posting reviews or other use of the Site). You agree to keep your username and password information confidential and not share it with anyone. You agree to immediately notify Teddy of any unauthorized use or suspected unauthorized use of your Teddy Account or any other actual or potential breach of security.  Teddy does not sell products for purchase by children. Teddy sells children’s products for purchase by adults, who can purchase with a credit card or other permitted payment method. If you are in the United States and are under 18 years of age, you may use the Teddy Services only with involvement of a parent or guardian.  Or if you are outside of the United States, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.</p>
+</p>
+<br>
+<p class="termpara2 font1"><b>Order Acceptance and Fulfillment  </b> </p>
+<br>
+<p class="termpara2 font1">The receipt of an order number or an email order confirmation does not constitute the acceptance of an order or confirmation of an agreement to sell. Teddy reserves the right, without prior notification, to limit the order quantity on any item and/or to refuse service to any customer. Verification of information may be required prior to the acceptance of an order. Prices and availability of products are subject to change without notice. Errors will be corrected when discovered and Teddy reserves the right to revoke any stated offer and to correct any error, inaccuracy, or omission (including after an order has been submitted). Certain orders constitute improper use of the Site. Teddy reserves the right, at its sole discretion, to refuse or cancel any order for any reason. Your Teddy account may also be restricted or terminated for any reason, at Teddy's sole discretion.  We shall not be liable to you or to any third-party for any modification, price change, suspension or discontinuance of the Teddy Services.  We reserve the right, but are not obligated, to limit the sales of our products or Teddy Services to any person, geographic region or jurisdiction. We may exercise this right on a case-by-case basis. We reserve the right to limit the quantities of any products or Teddy Services that we offer. We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers or distributors.
+
+<br><br>You agree to provide current, complete and accurate purchase and account information for all purchases made at our Site. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed. For information on returns, please review our Returns Policy.</p>
+  <br>
+  <p class="termpara2 font1"><b>Shipping, Delivery and Risk of Loss </b> </p>
+  <br>
+  <p class="termpara2 font1">All items purchased from Teddy are made pursuant to a shipment contract with a shipping carrier. Teddy does not guarantee shipping or delivery times and is not liable for the actions or conduct of our shipping carriers. A delayed delivery of any part of an order does not entitle you to cancel other deliveries.  Risk of loss and title for products ordered from Teddy pass to you upon delivery of the products to the carrier. Products will be shipped to the address designated by you provided the address is complete and complies with any shipping restrictions contained on the Site. The time and location of delivery of the products to you is at the discretion of the carrier.
+<br>
+<p class="termpara2 font1"><b>Product Descriptions </b></p>
+<br>
+<p class="termpara2 font1">Teddy attempts to be as accurate as possible in describing the products on the Site. However, Teddy does not warrant that product descriptions, depictions, colors, dimensions, or other content on the Site are accurate, complete, reliable, current or error-free. If a product offered by Teddy is not as described, your sole remedy is to return the product. </p>
+</p>
+<br>
+<p class="termpara2 font1"><b>Reviews, Comments, Communications and Other User Content</b></p>
+<p class="termpara2 font1">You may post reviews, comments, photos, videos, and other content on our Site on through social media, send e-cards and other communications, and submit suggestions, ideas, comments, questions, or other information, or enter contests or promotions; so long as the content is not illegal, obscene, threatening, defamatory, invasive of privacy, infringing of intellectual property rights (including publicity rights), or otherwise injurious to third parties or objectionable, and does not consist of or contain software viruses, political campaigning, commercial solicitation, chain letters, mass mailings, or any form of "spam" or unsolicited commercial electronic messages. You may not use a false e-mail address, impersonate any person or entity, or otherwise mislead as to the origin of a card or other content. Teddy reserves the right (but not the obligation) to remove or edit such content, but does not regularly review posted content.  You may not state or imply that the content is in any way provided, sponsored, or endorsed by Teddy. Because you alone are responsible for your content, you may expose yourself to liability if, for example, your content violates the Terms of Use policy. Teddy is not obligated to backup any your content, makes no representation that it will do so, and you agree that Teddy may delete your content at any time.
+<br> <br>If you do post content or submit material, and unless we indicate otherwise, you grant Teddy a nonexclusive, royalty-free, perpetual, irrevocable, and fully sublicensable right to use, reproduce, modify, adapt, publish, perform, translate, create derivative works from, distribute, and display such content throughout the world in any media. You grant Teddy and sublicensees the right to use the name that you submit in connection with such content, if we choose. You represent and warrant that you own or otherwise control all of the rights to the content that you post, that the content is accurate, that use of the content you supply does not violate the Terms of Use and will not cause injury to any person or entity, and that you will indemnify Teddy for all claims resulting from content you supply. Teddy has the right but not the obligation to monitor and edit or remove any activity or content. Teddy takes no responsibility and assumes no liability for any content posted by you or any third party.  You agree to irrevocably waive (and cause to be waived) any claims and assertions of publicity or moral rights, or attribution with respect to your user content.  Because we do not control content which users provide through reviews, comments, and other communications, you acknowledge and agree that we are not responsible for any such content and we make no guarantees regarding the accuracy, currency, suitability, or quality of any such content, and we assume no responsibility for any such content. Your interactions with other Site users are solely between you and such user. You agree that Teddy will not be responsible for any loss or damage incurred as the result of any such interactions. If there is a dispute between you and any Site user, we are under no obligation to become involved.
+<br> <br>
+Teddy will treat any feedback, communications, or suggestions you provide to Teddy as non-confidential and non-proprietary subject to the limits of applicable law and our Privacy Notice. You agree that you will not submit to Teddy any information or ideas that you consider to be confidential or proprietary.
+</p>
+<p class="termpara2 font1"><b>Contact Information </a></p>
+<br>
+<p class="termpara2 font1">For questions or concerns about these Terms, including your legal relationship with Teddy, please contact us at service@teddy.com .
+
+</p>
+       </div>
+<div class="footer1">
+  <p class="footerpara1"> <a href="terms.html"class="none">Terms</a> -  <a href="privacy.html"class="none">Privacy Policy </a> </p>
+  <p class="footerpara2">Copyright © 2024 Teddy Publishing</p>
+</div>
+</center>

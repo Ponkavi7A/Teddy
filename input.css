@@ -1,0 +1,72 @@
+.search1{
+    height: 35%;
+    width:90%;
+    background-color: rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    border:1px rgba(0, 0, 0, 0.158);
+    display: flex;
+    padding-left:2%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.f1{
+    color:#FFF;
+    font-size: 100%;
+}
+.font1{
+    font-family: 'Poppins',sans-serif;
+}
+
+.para1{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-top: 2%;
+}
+.empty2{
+    font-size: 3em;
+    font-weight: 500;
+}
+.empty{
+    height: 3.2em;
+    width :40%;
+    background-color: #0593BB;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.empty1{
+    margin-top: 20em;
+    height:15em;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.divempty{
+    height: 50%;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.paraempty1{
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #FFF;
+}
+.terms1{
+    margin-top: 40px;
+    width:38%;
+}
+.termpara{
+    font-size: 3.5em;
+    text-align: center;
+}
+.termpara2{
+    font-size:1.2em ;
+    text-align: left;
+    line-height: 2em;
+    font-weight: 300;
+}

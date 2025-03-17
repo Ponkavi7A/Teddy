@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="piggy.css" type="text/css">
+    <link rel="stylesheet" href="cart.css" type="text/css">
+    <link rel="stylesheet" href="teddy.css" type="text/css">
+     <link rel="stylesheet" href="images.css" type="text/css">
+     <link rel="stylesheet" href="animate.css" type="text/css">
+      <link rel="stylesheet" href="input.css" type="text/css">
+     
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="piggyheader">
+         <div class="h1">
+            <div class="h1sub1"> 
+                <a href="landingpage.html"class="flex">         <img src="teddylogo.webp" class="logot"> </a>
+            </div>
+            <div class="h1sub2">
+                 <input type="search" class="search1 f1" placeholder="search books"style="color:#FFF">
+            </div>
+             </div>
+        <div class="h2">
+            <div class="h1sub3">
+                <h3 id="h1sub1"> <a href="books.html"class="a1"> Books </a></h3>
+            </div>
+            <div class="h1sub3">
+                <h3><a href="store.html"class="a1"> Store</a></h3>
+            </div>
+  <div class="h1sub4">
+              <div class="trolly1">
+               <a href="empty.html"> <img src="trolly.svg.png"class="trol"> </a>
+              </div>
+          <div class="trolly2">    <p class="spanfont"> <a href="empty.html"class="none font1"> Cart</a></p></div> </div> </div>
+        </div>
+   <center> <div class="cartdiv1">
+<div class="cartdiv2">
+    <div class="cartdiv4 one">
+        <div class="onesub1">
+            <p class="cartpara1 font1">Cart(1 item)</p>
+        </div>
+        <div class="onesub2">
+             <p class="cartpara1">$12.99</p>
+        </div>
+    </div>
+    <div class="cartdiv4 two">
+        <div class="twodiv">
+            <p class="spanfont"id="fonts"><a href="page3.html" class="font1 none"> Proceed to Checkout</a></p>
+        </div>
+    </div>
+    <div class="cartdiv4 three">
+        <div class="threediv">
+            <div class="threesub2">
+          <img src="truck.png"class="imagecart">
+          </div>
+            <div class="threesub">
+            </div>
+        </div>
+    </div>
+    <div class="cartdiv4 three">  <p class="cartpara2 spanfont">$12.01 to FREE shipping</p></div>
+</div>
+<div class="cartdiv3">
+    <div class="cartdiv5 left cartpad1 three">
+        <img src="jerry.webp"class="cartimage2">
+    </div>
+    <div class="cartdiv5 right cartpad2">
+        <p class="cartpara3">Teddy and HIS BEST FRIEND JERRY</p>
+        <div class="divcart1">
+            <div class="divcarts">
+                 <p class="cartpara4">-</p>
+            </div>
+            <div class="divcarts">
+                <p class="cartpara4">1</p>
+            </div>
+            <div class="divcarts" id="marg">
+                 <p class="cartpara4">+</p>
+            </div>
+        </div>
+        <p class="cartpara6">$12.99</p>
+    </div>
+</div>
+    </div>
+         <div class="footerdiv1">
+      <div class="fsub1 left">
+        <img src="books.webp" class="image">
+      </div>
+      <div class="fsub2 right">
+       <p class="para5">Volume 1 Bundle. Save 20%</p>
+       <p class="para6">$49.99 <span class="colorgrey">&nbsp;$64.95 </span></p>
+       <div class="add">
+       <p class="spanfont"><a href="cart11.html"class="font1 none">Add to Cart</a></p>
+       </div>
+       </div>
+       </div>
+       <div class="footerdiv1">
+       <div class="fsub1 left">
+       <img src="books2.webp" class="image">
+       </div>
+       <div class="fsub2 right">
+       <p class="para5">Volume 2 Bundle. Save 20%</p>
+       <p class="para6">$49.99 <span class="colorgrey">&nbsp;$64.95 </span></p>
+       <div class="add">
+       <p class="spanfont"><a href="cart12.html"class="font1 none">Add to Cart</a></p>
+       </div>
+       </div>
+       </div>
+       </div>
+       <div class="footerdiv2">
+       <div class="fsub1 left">
+       <img src="books4.webp" class="image">
+       </div>
+       <div class="fsub2 right">
+       <p class="para5">Get the 10 Books Bundle Collection & Save 30%</p>
+       <p class="para6">$89.99 <span class="colorgrey">&nbsp;$129.90 </span></p>
+       <div class="add2">
+       <p class="spanfont"><a href="cart13.html"class="font1 none">Add to Cart</a></p></div></div></div></div> </div>    
+<div class="footer1">
+  <p class="footerpara1"> <a href="terms.html"class="none">Terms</a> -<a href="privacy.html"class="none"> Privacy Policy</a></p>
+  <p class="footerpara2">Copyright © 2024 Teddy Publishing</p>
+</div> 
+ </center>
+</body>

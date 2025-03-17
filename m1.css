@@ -1,0 +1,23 @@
+@media screen and (max-width:425px){
+    body{
+        width:81em;
+    }
+    .cartdiv5{
+        width: 70%;
+    }
+    .main1{
+        width:81em;
+    }
+    html{
+        width:80em;
+    }
+    center{
+        width:80em;
+    }
+}
+
+@media screen and (max-width:422px){
+    .para9{
+        font-size: 2.2rem;
+    }
+}

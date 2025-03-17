@@ -1,0 +1,517 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    height:100%;
+    width:100%;
+    background-color: #0593BB;
+}
+.maindiv{
+    height: 85vh;
+    width: 70vw;
+    border-radius: 27px;
+    background-color: #FFF;
+    margin-top: 7vh;
+}
+.firstdiv{
+    height: 10%;
+    width: 100%;
+}
+.font1{
+    font-family: 'Hind Siliguri',sans-serif;
+}
+.f1{
+    font-size: 3vh;
+    text-align: left;
+    font-weight:800;
+    padding: 2% 0% 0% 3%;
+}
+.seconddiv{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.secondsection{
+    height:100%;
+    width: 25%;
+    border: 1px solid #B4BAC7;
+}
+#second{
+    border-right: 0px;
+}
+#second2{
+    border-left: 0px;
+}
+.image{
+    height:100%;
+    width: 10%;
+}
+.div1{
+    height: 100%;
+    width: 20%;
+    border-radius: 17px;
+}
+.div2{
+    height: 100%;
+    width: 80%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.image1{
+    height: 60%;
+    width: 45%;
+    padding-top: 10%;
+}
+.para1{
+    font-size:2vh;
+    padding:1%;
+    text-align:left;
+}
+.divcircle{
+    height: 48%;
+    width: 38%;
+    margin-top:10%;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #B4BAC7;
+}
+.thirddiv{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+}
+.f2{
+    font-size: 2.5vh;
+    text-align: left;
+    font-weight:800;
+    padding: 2% 0% 0% 3%;
+}
+.thirdsubdiv{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 20%;
+    width: 90%;
+    text-align:left;
+    padding: 1% 0% 2% 5%;
+}
+*{
+     font-family: 'Hind Siliguri',sans-serif;
+}
+.box1 input{
+    height: 30%;
+    width: 90%;
+    padding: 3% 2% 0% 0%;
+    margin-top:3%;
+    border-radius: 10px;
+    font-size:2vh;
+}
+.box2 input{
+    height: 30%;
+    width: 90%;
+    padding: 3% 2% 0% 0%;
+    margin-top:3%;
+    border-radius: 10px;
+    font-size:2vh;
+}
+#id{
+    background-color: #F5F6F9;
+}
+.box1 span{
+    color: #E15C4E;
+}
+.box1 select{
+    height: 45%;
+    width: 90%;
+    margin-top:3%;
+    border-radius: 10px;
+    font-size: 2vh;
+
+}
+.box2{
+    height: 80%;
+    width: 40%;
+    text-align:left;
+    padding: 1% 0% 2% 5%;
+}
+.box2 input{
+    height:60%;
+    width: 70%;
+}
+.radio{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.radio2{
+    height: 90%;
+    width: 45%;
+}
+.radio2 input{
+    text-align: left;
+}
+.maindiv2{
+    height: 80vh;
+    width: 60vw;
+    background-color: #FFF;
+    margin-top: 10vh;
+    border-radius:27px;
+}
+.seconddiv2{
+    height: 90%;
+    width: 46%;
+    border-radius: 27px;
+   
+}
+#secondbg{
+    background-color: #EAECF2;
+     margin: 3% 0% 3% 3%;
+}
+#secondbg2{
+    margin: 3% 3% 3% 0%
+}
+.insta{
+    margin: 6% 80% 0% 3%;
+}
+.font2{
+    font-family: 'Inter',sans-serif;
+}
+.para21{
+    font-size:3.5vh;
+    font-weight: 700;
+    padding: 13% 8% 0% 8%;
+    text-align:left; 
+    line-height:6vh;
+}
+.para22{
+    font-size: 1.7vh;
+    color:#7E828E;
+    padding: 8% 5% 0% 8%;
+    text-align:left;
+    line-height:4vh;
+}
+.colordiv{
+    height:30%;
+    width: 90%;
+    background-color: #2D3346;
+    border-radius:24px;
+    margin-top:14%;
+}
+.ic{
+    height:20%;
+    width:10%;
+    float:left;
+    margin-left: 5%;
+    rotate: 180deg;
+}
+.para23{
+    font-size:1.7vh;
+    color:#FFF;
+    padding:12% 5% 0% 6%;
+    text-align:left;
+    line-height: 3vh;
+}
+.photo{
+    float:left;
+    padding: 2% 2% 0% 5%;
+}
+.para24{
+    font-size: 1.5vh;
+    text-align: left;
+    color: #FFF;
+    padding-top: 4%;
+    font-weight: 500;
+}
+.para25{
+    font-size: 1.3vh;
+    text-align: left;
+    color:#7E828E;
+}
+.para26{ <link rel="stylesheet" href="input.css" type="text/css">
+    font-weight: 600;
+    font-size: 3vh;
+    text-align: left;
+    padding: 10% 0% 0% 4%;
+}
+.create{
+    color: #7E828E;
+    font-size:1.9vh;
+    padding: 4% 0% 10% 4.5%;
+    text-align: left;
+}
+.boxes{
+    height:8%;
+    width:90%;
+    border-radius:10px;
+    float:left;
+    margin: 2% 0% 5% 5%;
+    font-size: 1.7vh;
+}
+.boxpara{
+    font-size: 1.7vh;
+    color: #7E828E;
+    font-weight: 500;
+    text-align: left;
+    padding: 4% 0% 0% 5%;
+}
+
+.sign{
+    height: 8%;
+    width: 90%;
+    background-color: #3C37FF;
+    margin-top:25%;
+    border-radius: 17px;
+}
+.parasign{
+    font-size:2vh;
+    color:#FFF;
+    padding: 3%;
+    text-align: center;
+}
+.blue{
+    color: #3C37FF;
+}
+.create2{
+    color: #7E828E;
+    font-size:1.9vh;
+    margin-top:10%;
+}
+.maindiv3{
+    height: 60em;
+    width:45%;
+    margin-top:30px;
+    background-color: #FFF;
+}
+.font3{
+    font-family: 'Popins',sans-serif;
+}
+.para31{
+    font-size: 3.5vh;
+    font-weight: 600;
+    text-align:left;
+    padding: 5%;
+}
+.divone{
+    height: 10%;
+    width: 100%;
+}
+.divtwo{
+    height: 10%;
+    width:90%;
+    display: flex;
+    padding:3%;
+    justify-content: space-between;
+}
+.divtwo1{
+    height:100%;
+    width: 48%;
+    border-radius: 17px;
+}
+.divtwo1 input{
+    height: 60%;
+    width: 100%;
+    border-radius: 7px;
+    float:left;
+    margin-top: 2%;
+    font-size: 2vh;
+}
+.inputpara{
+    font-size: 2vh;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 1%;
+}
+.divthree{
+    height: 10%;
+    width: 90%;
+    margin-top:1%;
+}
+.divthree input{
+    height: 60%;
+    width: 100%;border-radius: 7px;  font-size: 2vh;
+    margin-top: 2%;
+}
+.divthree1{
+    height: 60%;
+    width: 100%;
+    border-radius: 7px;
+    float:left;
+    margin-top: 5%;
+    border: 2px solid black;
+    display:flex;
+    justify-content: flex-start;
+}
+.divthree1 input{
+    height: 80%;
+    width: 5%;
+    margin-top:1%;
+    margin-right: 3%;
+    margin-left:6%;
+}
+.divthreepara{
+    font-size:2vh;
+    padding:4% 0% 0% 2%;
+    text-align:left;
+}
+.divfour{
+    height: 17%;
+    width:90%;
+    margin-top:2%;
+}
+.divfour textarea{
+    height: 80%;
+    width:100%;
+    border-radius: 10px;
+    margin-top:3%;
+    font-size: 2vh;
+    border: 2px solid;
+}
+.divfive{
+    height: 3%;
+    width: 95%;
+    display:flex;
+    justify-content: flex-start;
+    margin-top:6%;
+}
+.divfive input{
+    height: 70%;
+    width: 8%;
+    float:left;
+    margin-left:0px;
+}
+.submit{
+    height:8%;
+    width:90%;
+    background-color: #0593BB;
+    border-radius: 10px;
+    margin-top:3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+.submitpara{
+    font-size: 1.5em;
+    font-weight:600;
+    color:#FFF;
+    cursor:pointer;
+}
+.boxdiv{
+    height: 90%;
+    width: 40%;
+   
+}
+.submit:hover{
+    background-color: #1462A5;
+}
+.boxdiv input{
+    height: 43%;
+    width: 93%;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.boxdiv lable{
+    display: block;}
+.boxradio{
+     height: 40%;
+    width: 90%;
+    margin-top:10%;
+    border-radius: 10px;
+    font-size:2vh;
+    display: flex;
+    justify-content:space-around;
+    background-color: #F5F6F9;
+}
+.boxradio input{
+    height: 20px;
+    width:20px;
+}
+.boxradio lable{
+    margin-top: 1%;
+    margin-right: 5%;
+}
+.para7{
+    margin-right: 17%;
+    color: #d0d5e4;
+    font-weight: 300;
+}
+.continue{
+          height: 100%;
+          width:45%;
+          border-radius: 10px;
+          background-color: #B4BAC7;
+          font-size: 2vh;
+          color:#FFF;
+
+}
+.bigdiv1{
+    height: 6.5%;
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin-right:3%;
+    margin-top:3%;
+}
+.continue2{
+    height: 100%;
+    width: 50%;
+    background-color:#71BA80 ;
+    border-radius: 10px;
+    font-size: 2vh;
+          color:#FFF;
+}
+#id1{
+    font-size:1.5vh;
+}
+.size2{
+    font-size:3vh;
+}
+.span2{
+    border-bottom-color: #0C7C66;
+    color: #0C7C66;
+}
+.size3{
+    border-bottom-color: #0C7C66;
+    border-bottom: 3px solid #0C7C66;
+}
+
+.boxend{
+    height:6%;
+    margin-top: 2%;
+    width: 40%;
+    display: flex;
+    border-radius: 17px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    cursor:pointer;
+}
+search1{
+    height: 35%;
+    width:90%;
+    background-color: rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    border:1px rgba(0, 0, 0, 0.158);
+    display: flex;
+    padding-left:2%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.f1{
+    color:#FFF;
+    font-size: 100%;
+}
+

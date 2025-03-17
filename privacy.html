@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href="piggy.css"type="text/css">
+    <link rel="stylesheet" href="teddy.css" type="text/css">
+     <link rel="stylesheet" href="images.css" type="text/css">
+     <link rel="stylesheet" href="animate.css" type="text/css">
+      <link rel="stylesheet" href="input.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy</title>
+</head>
+<body>
+    <div class="piggyheader">
+         <div class="h1">
+            <div class="h1sub1"> 
+              <a href="landingpage.html"class="flex">         <img src="teddylogo.webp" class="logot"> </a>
+            </div>
+            <div class="h1sub2">
+               <input type="search" class="search1 f1" placeholder="search books"style="color:#FFF">
+            </div>
+             </div>
+        <div class="h2">
+            <div class="h1sub3">
+                <h3 id="h1sub1"> <a href="books.html"class="a1"> Books </a></h3>
+            </div>
+            <div class="h1sub3">
+                <h3><a href="store.html"class="a1"> Store</a></h3>
+            </div>
+  <div class="h1sub4">
+              <div class="trolly1">
+               <a href="empty.html"> <img src="trolly.svg.png"class="trol"> </a>
+              </div>
+          <div class="trolly2">    <p class="spanfont"> <a href="empty.html"class="none font1"> Cart</a></p></div> </div> </div>
+        </div> 
+    <center>
+    <div class="terms1">
+        <p class="termpara">Privacy policy</p> <br> <br>
+        <p class="termpara2 font1"> Last Updated:  September 21, 2022
+        <br> <br>
+        At Teddy.com and its affiliates (“Teddy” or “we”, “our”,  “us”), your privacy is important to us.  We know that you care how information about you is used and shared. This Privacy Notice describes how Teddy collects and processes your personal information when you visit our website, open our emails or connect with us offline (together, the “Services”), and how we store, use, disclose and protect such information. By using  the Services, you agree to the collection, storage, disclosure and use of your information as provided in this Privacy Notice.
+        <br> <br>
+        <b> What personal information do we collect?</b>
+        <br> <br>
+        We collect your personal information such as your name, email address, billing address, shipping address, telephone number, credit card information, date of birth, when you voluntarily provide this information to us during online registration, placing an order or when doing business with us.  We automatically collect and store certain types of information about your use of the Services, including your activities while browsing our website, such as web pages or products that you view, what websites or search terms referred you to the Site, and information about how you interact with our Site.  We also collect information about the devices which are used to access our Services that does not directly identify you as an individual.  We collect internet or other electronic network activity information including cookies and mobile device IDs, and related browsing information. We collect information on the products you are considering purchasing or which you have purchased. We collect personal information about you from other sources, such as an updated delivery address from our carriers, posts on third party social media platforms or if you access our Services though social media, you give us permission to access, store and use any personal information that you permit the applicable social media service to share in accordance with your privacy setting with the applicable social media service.  California residents have the right to request access to or the deletion of their personal information (see California Privacy Act Disclosure section below). 
+        <br> <br>
+        <b>How do we use your personal information?</b>
+        <br> <br>
+        We collect the personal information to process and fulfill your orders; process payment; deliver marketing messages; communicate with you about your orders, our products and provide promotional offers; respond to your inquiries; enable your use of our features, products and services; and provide customer service.  We use the personal information to remember your preferences on the Services.  We may use the personal information to enter you in contests if you so choose to enter, to notify you of results and to register you for certain features, products and services in line with your chosen marketing preferences. We may use the information in certain cases to comply with applicable laws. We use your personal information to prevent and detect fraud and abuse in order to protect the security of our customers, Teddy and others.  If you submit a product review or provide other feedback, we may use your submission for commercial purposes to promote our products. 
+        <br> <br>
+        <b>What information do we disclose and share?</b>
+        <br> <br>
+        We may share personal Information about you with third parties in order to conduct our business, when legally required, or with your consent, as follows: 
+
+With our affiliates for business, operational, promotional or marketing or other purposes. We use Google Analytics to help us understand how our customers use the Site--you can read more about how Google uses your personal information here:  https://www.google.com/intl/en/policies/privacy.  You can also opt-out of Google Analytics here:  https://tools.google.com/dlpage/gaoptout.
+
+With our service providers and third-party contractors and partners in support of our Services and/or our businesses, to complete or confirm a transaction that you conduct with us. For example, service providers may include third parties which may fulfill orders, deliver products, send postal mail or email, analyze data, process credit card payments, provide customer service and marketing research and assistance. We use Shopify to power our online store--you can read more about how Shopify uses your personal information here:  https://www.shopify.com/legal/privacy.  
+
+With successors in interest in a business transfer, we may disclose, transfer, or assign to our affiliates or to one or more third parties the personal information collected about you as part of a merger, acquisition or other sale or transfer of any of the assets or business of Teddy. In such event, you grant us the right to assign the information we have collected from you.  In the unlikely event of our bankruptcy, insolvency, reorganization, receivership, or assignment for the benefit of creditors, or the application of laws or equitable principles affecting creditors' rights generally, we may transfer your information to a successor or to a third party that purchases our assets arising from such circumstances. In such transactions, customer information generally is one of the transferred business assets but remains subject to the promises made in any pre-existing Privacy Notice.
+
+With the government or other third parties, we may disclose personal information about you to comply with the law, applicable regulations, governmental and quasi-governmental requests, court orders, subpoenas and other legal process. We may also disclose personal information to third parties if needed to (i) enforce any of the Terms of Use for our Services or any investigation of potential violations thereof, (ii) detect, prevent, or otherwise address fraud, security or technical issues, (iii) protect against harm to our Services and (iv) protect our rights, property or safety or the rights, property or safety of our users or others.
+
+In addition, we may share information to support other legitimate business purposes including but not limited to legal compliance.  We also may share anonymized or de-identified information we collect under any of the above circumstances. We may also share it with third parties to develop and deliver targeted advertising on our website, and on websites of third parties. We may combine anonymized or de-identified information we collect with additional anonymized or de-identified information collected from other sources. We also may share aggregated and anonymized information with third parties, including advisors, advertisers, and investors, for the purpose of conducting general business analysis. For example, we may tell our advertisers the number of visitors to our website and the most popular features or services accessed.
+<br> <br><b>
+Children’s Privacy - Are Children Allowed to Use the Teddy Website? </b>
+<br> <br>
+Teddy does not sell products for purchase by children.  Teddy sells children’s products for purchase by adults.  If you are under 18, you may use our Services only with the involvement of a parent or guardian.  We do not knowingly collect personal information from children under the age of 13 without the consent of the child’s parent or guardian. We may ask visitors to enter a birth date to restrict those who are underage from accessing certain services, areas or features of our website.   If we become aware that Information was collected from a child under 13 years of age without the consent of a parent or guardian, we will use all reasonable efforts to delete such information.  If you are outside of the United States, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.
+<br> <br>
+<b> Cookies and Advertising</b>
+<br> <br>
+To enable our systems to recognize your browser or device and to provide and improve our Services, we and our service providers collect information about users over time and across different websites and devices through the use of tracking tools including cookies, web beacons, clear GIFs, pixels, device identifiers and other online information-gathering tools (collectively, "cookies"). We use cookies to  authenticate your account and store your password if you are an account holder with us, to monitor performance of our Services, to learn about the way our interact with our content, to optimize our website, to provide you with advertising content on our Services, to measure the effectiveness of ads, and to pursue analytics and research to help us improve our Services.   Cookie technology helps us deliver content tailored to a visitor’s interests, and allows us to make ordering products, entering and participating in sweepstakes and contests, and offering other functions at our sites easier for our visitors. Sites that offer online shopping use cookies to remember and process the items in your shopping cart, for example. Where appropriate under our disclosed practices and policies, we may associate personal information with a cookie file in such instances.
+
+We and our service providers use cookies to learn about what ads you see, what ads you interact with, and other actions you take on our Services. This allows us to provide you with more useful and relevant ads on Teddy Services as well as unaffiliated services. Interest-based ads, also sometimes referred to as personalized or targeted ads, are displayed to you based on information from activities such as browsing or purchasing through our Services or visiting external sites or apps that contain our content or ads. In providing interest-based ads, we follow the Self-Regulatory Principles for Online Behavioral Advertising developed by the Digital Advertising Alliance (DAA) (a coalition of marketing and online advertising organizations). See "Advertising Preferences, Can I Opt-out" below to opt-out of such advertising.            
+
+Third party advertising management partners may help us display tailored content to our customers' interests and serve interest-based advertising on our behalf. However, advertisers and other third parties (including the ad networks, ad-serving companies, and other service providers they may use) may collect information through cookies about your browsing activity on our website to display interest-based ads. Also, some third parties may provide us information about you (such as the sites where you have been shown ads or demographic information) from offline and online sources that we may use to provide you more relevant and useful advertising.
+
+Advertisers or ad companies working on their behalf sometimes use technology to serve the ads that appear on our website directly to your browser. They automatically receive your IP address when this happens. They may also use cookies to measure the effectiveness of their ads and to personalize ad content. The information practices of these advertisers and third-party websites are not covered by our Privacy Notice. Please contact them directly for more information about their privacy practices.  
+<br> <br>
+<b>QUESTIONS</b>
+<br>
+If you have any questions regarding this Privacy Notice, you may contact us at the email address below.
+<br>
+service@teddy.com
+<br><br>
+<b>ACCESS TO YOUR INFORMATION </b>
+<br> <br>
+Status of recent orders, your order history, personal identifiable information (including name, email, password and addresses), payment settings (including payment card information), email notification settings, recommendations, products you recently viewed, shopping lists and gift registries
+<br> <br>
+ </p>
+ <div class="footer1">
+  <p class="footerpara1"> <a href="terms.html"class="none">Terms</a> -<a href="privacy.html"class="none"> Privacy Policy</a></p>
+  <p class="footerpara2">Copyright © 2024 Teddy Publishing</p>
+</div>
+</center>
+    
+

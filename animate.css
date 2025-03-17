@@ -1,0 +1,128 @@
+.div4:hover{
+    background-color: black;
+    color: #FFDC52;
+}
+.div4:hover .a2{
+    color: #FFDC52;
+}
+.div5:hover{
+    background-color: black;
+}
+.div5:hover .colorw{
+    color:#FFF;
+}
+.more2:hover{
+    background-color: #DBDBDB;
+}
+.yellow2:hover{
+    background-color: black;
+}
+.yellow2:hover .a2{
+    color: #FFDC52;
+}
+.add:hover{
+    background-color: black;
+    color: #FFDC52;
+}
+.add2:hover{
+    background-color: black;
+    color: #FFDC52;
+}
+.h1sub3:hover{
+    background-color: rgba(0, 0, 0, 0.199);
+    box-shadow: 0px 0px 10px inset;
+}
+.info:hover{
+    background-color:  #DBDBDB;
+}
+.info2:hover{
+    background-color:  #DBDBDB;
+}
+.info3:hover{
+    background-color:  #DBDBDB;
+}
+.div6subdiv:hover{
+    background-color: black;
+}
+.div6subdiv:hover .a2{
+    color:#FFDC52;
+}
+.div6subdiv1:hover{
+    background-color: #DBDBDB;
+}
+.add3:hover{
+    background-color: black;
+    color:#FFDC52;
+}
+.photodiv4sub1:hover{
+    background-color: black;
+    color: #FFDC52;
+}
+.photodiv4sub2:hover{
+    background-color: black;
+}
+.photodiv4sub2:hover .a1{
+    color:#3C0DEF;
+}
+.twodiv:hover{
+    background-color: black;
+}
+.twodiv:hover .spanfont{
+    color:#FFDC52;
+}
+.empty:hover{
+    background-color: black;
+}
+.none{
+    text-decoration: none;
+    color: black;
+}
+/* .divscroll{
+    margin-top: 150px;
+    height: 580px;
+    width: 100%;    overflow-x: hidden;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-inline: scroll;
+    background-color: antiquewhite;
+   
+} */
+.divscroll{
+    margin: auto;
+    margin-top: 150px;
+    height: 600px;
+    width: 100%; 
+    overflow-x: auto;
+    display: flex;
+    overflow-y: hidden;
+    background-color: antiquewhite;
+    
+   
+}
+.div31{
+    height:95%;
+    width: 17%;
+    border:1px solid;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+}
+
+
+.add:hover .font1{
+    color: #FFDC52;
+}
+.add2:hover .font1{
+    color: #FFDC52;
+}
+.twodiv:hover .font1{
+    color: #FFDC52;
+}
+.photodiv4sub1:hover .font1{
+    color: #FFDC52;
+}
+placeholder{
+    color:white;
+}

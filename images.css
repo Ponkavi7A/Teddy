@@ -1,0 +1,214 @@
+.logot{
+    height: 52%;
+    width:58%;
+}
+.granpa{
+    height:94%;
+    width:60%;
+}
+.align1{
+    justify-content: center;
+    align-items: flex-end;
+}
+.image{
+    height:100%;
+    width:100%;
+}
+.start{
+    justify-content: flex-start;
+    margin-left: -4%;
+}
+.a1{
+    text-decoration: none;
+    color: #FFF;
+}
+.a2{
+    color: black;
+    text-decoration: none;
+}
+.end{
+    justify-content: flex-end;
+}
+.pl{
+    padding-right: 5%;
+}
+.pb{
+    height: 80%;
+    width: 43%;
+    position: absolute;
+    top:10%;
+    left:-21.5%;
+    border-radius:5px;
+    box-shadow: 0px 0px 25px rgb(195, 194, 194);
+}
+.pb2{
+    height: 80%;
+    width: 43%;
+    position: absolute;
+    top:10%;
+    right:-22%;
+    border-radius:5px;
+    box-shadow: 0px 0px 25px rgb(195, 194, 194);
+}
+.bgcolor1{
+    background-color: #E2F9F5;
+}
+.bgcolor2{
+    background-color: #DDEEFD;
+}
+.bgcolor4{
+    background-color: #E6F5DF;
+}
+.bgcolor3{
+    background-color: #E7E4F3;
+}
+.bgcolor5{
+    background-color: #F1FFF0;
+}
+.bgcolor6{
+    background-color: #E0F6FB;
+}
+.bgcolor7{
+    background-color: #E5FAFA;
+}
+.bgcolor8{
+    background-color: #ECF8FB;
+}
+.bgcolor9{
+    background-color: #EBF0FF;
+}
+#bgcolor10{
+    background-color: #0593BB;
+}
+.shelfimage{
+    height:100%;
+    width:57%;
+    background-image: url(shelf.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookcardimage{
+    height: 33%;
+    width:21%;
+    position: absolute;
+    left:5%;
+    top:25%;
+    box-shadow: 0 0.4rem 1.6rem #00000026, 2rem 1.2rem 4.6rem #00000040;
+    transform: rotate(-20deg);
+}
+.teddy1{
+    height: 35%;
+    width: 27%;
+    position: absolute;
+    right:5%;
+    top: 50%;
+}
+.teddy2{
+    height: 40%;
+    width: 27%;
+    position: absolute;
+    right:5%;
+    top: 50%;
+}
+
+.parcel{
+     height:53%;
+    width:27%;
+    position: absolute;
+    left:5%;
+    top:14%;
+}
+.parcel2{
+    height:47%;
+    width:27%;
+    position: absolute;
+    left:5%;
+    top:17%;
+}
+#top{
+    top: 50%;
+    height: 55%;
+}
+#top2{
+    top: 35%;
+}
+#id{
+    height: 42%;
+    top:42%;
+}
+.bookcardimage2{
+    height: 40%;
+    width:21%;
+    position: absolute;
+    right:5%;
+    top:60%;
+    box-shadow: 0 0.4rem 1.6rem #00000026, 2rem 1.2rem 4.6rem #00000040;
+    transform: rotate(20deg);
+}
+#id2{
+    top:30%;
+}
+.storeimage{
+    height: 85%;
+    width: 70%;
+    box-shadow: 0 0.4rem 1.6rem #00000026, 2rem 1.2rem 4.6rem #00000040;
+}
+#owl{
+    height: 32%;
+    width: 34%;
+    position: absolute;
+    left: -75%;
+    top: 35%;
+}
+#work{
+    position: absolute;
+    height: 28%;
+    width:40%;
+    left:-54%;
+    top: 80.5%;
+}
+#rocket{
+    height: 33%;
+    width: 20%;
+    position: absolute;
+    right: -55%;
+    top:30%;
+}
+#wool{
+    height: 44%;
+    width:45%;
+    position: absolute;
+    top:66%;
+    right: -65%;
+}
+.yellow2{
+    background-color:#FFDC52 ;
+}
+.padding2{
+    padding:0px;
+}
+.conn5{
+    padding-top: 10%;
+    height: 80%;
+    width: 65%;
+}
+.conn6{
+    height: 90%;
+    width:100%;
+}
+.divpadd1{
+    padding-right: 25%;
+}
+.conn7{
+    height: 80%;
+    width:100%;
+}
+.marg10{
+    margin-top:5%;
+}
+.images2{
+    height:80%;
+    width: 90%;
+}

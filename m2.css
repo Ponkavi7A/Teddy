@@ -1,0 +1,66 @@
+@media screen and (max-width:460px){
+    .mainbooks{
+        width:83em; 
+    }
+    html{
+        width:83em;
+    }
+    body{
+        width: 83em;
+    }
+    .para4{
+        font-size:1em;
+    }
+    .title1{
+        font-size: 2.7em;
+    }
+    .bookcard .bookcard2 .bookcard3 .bookcard4 img{
+        height: 50%;
+    }
+    .h3{
+        font-size: 2rem;
+    }
+    .divshelfimage{
+        width:100%;
+    }
+}
+@media screen and (max-width:1440px){
+    html{
+        width:1440px;
+    }
+    center{
+        width:1440px;
+    }
+    body{
+        width:1440px
+    }
+    .mainbooks{
+        width:1440px;
+    }
+    .para9{
+        font-size: 2.2rem;
+    }
+    .para4{
+        font-size:1.2em;
+    }
+    .title1{
+        font-size: 2.7em;
+    }
+      .title2{
+        font-size: 2.7em;
+        font-weight: 400;
+    }
+    .bookcard .bookcard2 .bookcard3 .bookcard4 img{
+        height: 50%;
+    }
+    .h3{
+        font-size: 2.1rem;
+        margin-left: 20%;
+    }
+    .shelfimage{
+        width:57%;
+    }
+    .para4{
+        font-size: 1.2rem;
+    }
+}

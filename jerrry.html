@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href="piggy.css"type="text/css">
+    <link rel="stylesheet" href="teddy.css" type="text/css">
+     <link rel="stylesheet" href="images.css" type="text/css">
+     <link rel="stylesheet" href="animate.css" type="text/css">
+      <link rel="stylesheet" href="input.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div class="piggyheader">
+         <div class="h1">
+            <div class="h1sub1"> 
+                <a href="landingpage.html"class="flex">         <img src="teddylogo.webp" class="logot"> </a>
+            </div>
+            <div class="h1sub2">
+              <input type="search" class="search1 f1" placeholder="search books"style="color:#FFF">
+            </div>
+             </div>
+        <div class="h2">
+            <div class="h1sub3">
+                <h3 id="h1sub1"> <a href="books.html"class="a1"> Books </a></h3>
+            </div>
+            <div class="h1sub3">
+                <h3><a href="store.html"class="a1"> Store</a></h3>
+            </div>
+  <div class="h1sub4">
+              <div class="trolly1">
+               <a href="empty.html"> <img src="trolly.svg.png"class="trol"> </a>
+              </div>
+          <div class="trolly2">    <p class="spanfont"> <a href="empty.html"class="none font1"> Cart</a></p></div> </div> </div>
+        </div>
+<center>
+    <div class="photodiv1">
+        <d1v class="subphotodiv1">
+            <img src="jerry.webp"class="image photo">
+        </d1v>
+        <div class="subphotodiv2">
+            <div class="photodiv2">
+                <p class="paara1">Teddy and HIS BEST FRIEND JERRY</p>
+            </div>
+            <div class="photodiv3">
+                <p class="paara2 font1">Kingston and Princeton learn all about how Teddy looked after his best friend Jerry. They made new friends, had fun sneaking out at night, and Jerry learned how to walk all over again!</p>
+            </div>
+            <div class="photodiv5">
+                <div class="photodiv5sub1">
+                    <p class="paara3">$12.99</p>
+                </div>
+                <div class="photodiv5sub2">
+                    <p class="paara4">32 pages, hardcover, 9 x 0.4 x 9 inches Reading Age: 2-100</p>
+                </div>
+            </div>
+            <div class="photodiv4">
+                <div class="photodiv4sub1">
+                                   <a href="cart6.html"class="font1 none">    <p class="spanfont font"> Add to Cart </a></p>
+                </div>
+                <div class="photodiv4sub2">
+                    <p class="font spanfont a1">Buy with SHOP pay </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="photodiv7 marg10"id="width">
+        <div class="subdiv6">
+            <p class="paara5 fontleft">Best friends</p>
+            <p class="paara6 font fontleft padl0">Teddy and Jerry have been best friends for a long time.</p>
+        </div>
+        <div class="subdiv61">
+            <img src="bookimages/dinner.webp" class="conn6 divpadd1">
+        </div>
+    </div>
+     <div class="photodiv6"id="width">
+        <div class="subdiv61 padding3">
+            <img src="bookimages/mavu.webp" class="conn5">
+        </div>
+        <div class="subdiv6 padding4">
+            <p class="paara5 fontleft">Looked after Jerry</p>
+            <p class="paara6 font padding4 paddingr1">Princeton and Kingston learn how Teddy looked after Jerry when he couldn’t walk, visiting him every single day in the hospital, even if he had to sneak in!</p>
+        </div>
+    </div>
+     <div class="photodiv7"id="width">
+        <div class="subdiv6">
+            <p class="paara5 padd0 fontleft">With hard work</p>
+            <p class="paara6 font"style="padding-left:0%;">Finally, with hard work and encouragement from Teddy, Jerry learned to walk and run and skate again too!</p>
+        </div>
+        <div class="subdiv61">
+            <img src="bookimages/stick2.webp" class="conn6 divpadd1">
+        </div>
+    </div>
+      <div class="footerdiv1">
+      <div class="fsub1 left">
+        <img src="books.webp" class="image">
+      </div>
+      <div class="fsub2 right">
+       <p class="para5">Volume 1 Bundle. Save 20%</p>
+       <p class="para6">$49.99 <span class="colorgrey">&nbsp;$64.95 </span></p>
+       <div class="add">
+       <p class="spanfont"><a href="cart11.html"class="font1 none">Add to Cart</a></p>
+       </div>
+       </div>
+       </div>
+       <div class="footerdiv1">
+       <div class="fsub1 left">
+       <img src="books2.webp" class="image">
+       </div>
+       <div class="fsub2 right">
+       <p class="para5">Volume 2 Bundle. Save 20%</p>
+       <p class="para6">$49.99 <span class="colorgrey">&nbsp;$64.95 </span></p>
+       <div class="add">
+       <p class="spanfont"><a href="cart12.html"class="font1 none">Add to Cart</a></p>
+       </div>
+       </div>
+       </div>
+       </div>
+       <div class="footerdiv2">
+       <div class="fsub1 left">
+       <img src="books4.webp" class="image">
+       </div>
+       <div class="fsub2 right">
+       <p class="para5">Get the 10 Books Bundle Collection & Save 30%</p>
+       <p class="para6">$89.99 <span class="colorgrey">&nbsp;$129.90 </span></p>
+       <div class="add2">
+       <p class="spanfont"><a href="cart13.html"class="font1 none">Add to Cart</a></p></div></div></div></div> </div>    
+<div class="footer1">
+  <p class="footerpara1"> <a href="terms.html"class="none">Terms</a> -<a href="privacy.html"class="none"> Privacy Policy</a></p>
+  <p class="footerpara2">Copyright © 2024 Teddy Publishing</p>
+</div>
+</center>
+</body>

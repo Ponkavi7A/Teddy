@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="teddy.css" type="text/css">
+    <link rel="stylesheet" href="m3.css"type="text/css">
+    <link rel="stylesheet" href="images.css" type="text/css">
+    <link rel="stylesheet" href="animate.css" type="text/css">
+    <link rel="stylesheet" href="input.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainbooks position1" id="bgcolor10">
+        <div class="headerb">
+        <div class="h1">
+        <div class="h1sub1"> 
+           <a href="landingpage.html"class="flex"><a href="landingpage.html"class="flex">         <img src="teddylogo.webp" class="logot"> </a> </a>
+         </div>
+        <div class="h1sub2">
+              <input type="search" class="search1 f1" placeholder="search books"style="color:#FFF">
+        </div>
+        </div>
+        <div class="h2">
+        <div class="h1sub3">
+        <h3 id="h1sub1"> <a href="books.html"class="a1"> Books </a></h3>
+        </div>
+        <div class="h1sub3">
+        <h3><a href="store.html"class="a1"> Store</a></h3>
+        </div>
+  <div class="h1sub4">
+              <div class="trolly1">
+               <a href="empty.html"> <img src="trolly.svg.png"class="trol"> </a>
+              </div>
+          <div class="trolly2">    <p class="spanfont"> <a href="empty.html"class="none font1"> Cart</a></p></div> </div> </div>
+        </div> 
+    <p class="para7">The Book Store </p>
+<div class="main4">
+    <div class="head left">
+        <div class="head1">
+            <p class="para8">13 products available</p>
+        </div>
+        <div class="head1">
+        </div>    </div>
+<div class="main5 right">
+    <div class="div3">
+        <div class="div3sub">
+            <img src="piggybank.webp"class="storeimage">
+        </div>
+        <div class="div3sub2">
+            <div class="div7"> <p class="para10">Teddy and the PIGGY BANKS</p></div>
+            <div class="div8"><p class="para11">Grandpa Teddy brings Kingston and Princeton two special presents, and they learn something important:...</p></div>
+            <div class="div9"><p class="para12">$12.99 </p> </div>
+            <div class="div6">
+                <div class="div6subdiv">
+                    <p class="spanfont"> <a href="cart1.html"class="spanfont a2">Add to Cart </a></p>
+                </div>
+                <div class="div6subdiv1"><p class="spanfont"> <a href="piggy.html"class="spanfont a2">More Info</a></p></div>
+            </div>
+        </div>
+            </div>
+     <div class="div3">
+        <div class="div3sub"> <img src="work.webp"class="storeimage"></div>
+        <div class="div3sub2">
+            <div class="div7"> <p class="para10">Teddy goes to WORK</p></div>
+            <div class="div8"><p class="para11">Today is extra special for Kingston and Princeton. It's Teddy's birthday, and they get...</p></div>
+            <div class="div9"><p class="para12">$12.99 </p> </div>
+            <div class="div6">
+                <div class="div6subdiv"><p class="spanfont"> <a href="cart2.html"class="spanfont a2">Add to Cart</a></p></div>
+                <div class="div6subdiv1"><p class="spanfont"> <a href="work.html"class="spanfont a2">More Info</a></p></div>
+            </div>
+        </div>
+     </div>
+      <div class="div3">
+        <div class="div3sub"> <img src="world.webp"class="storeimage"></div>
+        <div class="div3sub2">
+            <div class="div7"> <p class="para10">Teddy and the PEOPLE WHO MAKE THE WORLD GO ROUND</p></div>
+            <div class="div8"><p class="para11">Kingston and Princeton love to walk through the city and get ice cream with...</p></div>
+            <div class="div9"><p class="para12">$12.99 </p> </div>
+            <div class="div6">
+                <div class="div6subdiv"><p class="spanfont"> <a href="cart3.html"class="spanfont a2">Add to Cart</a></p></div>
+                <div class="div6subdiv1"><p class="spanfont"> <a href="people.html"class="spanfont a2">More Info</a></p></div>
+            </div>
+        </div>
+      </div>
+       <div class="div3">
+        <div class="div3sub"> <img src="words.webp"class="storeimage"></div>
+        <div class="div3sub2"> <div class="div7"> <p class="para10">Teddy says WORDS CAN NEVER HURT YOU</p></div>
+            <div class="div8"><p class="para11">Kingston and Princeton are sad today because kids were mean to them at school..</p></div>
+            <div class="div9"><p class="para12">$12.99 </p> </div>
+            <div class="div6">
+                <div class="div6subdiv"><p class="spanfont"> <a href="cart4.html"class="spanfont a2">Add to Cart</a></p></div>
+                <div class="div6subdiv1"><p class="spanfont"> <a href="words.html"class="spanfont a2">More Info</a></p></div>
+            </div></div>
+       </div>
+        <div class="div3">
+            <div class="div3sub"> <img src="china.webp"class="storeimage"></div>
+        <div class="div3sub2">
+             <div class="div7"> <p class="para10">Teddy goes to CHINA</p></div>
+            <div class="div8"><p class="para11">Grandpa Teddy is coming home from his trip all the way to China! What...</p></div>
+            <div class="div9"><p class="para12">$12.99 </p> </div>
+            <div class="div6">
+                <div class="div6subdiv"><p class="spanfont"> <a href="cart5.html"class="spanfont a2">Add to Cart</a></p></div>
+                <div class="div6subdiv1"><p class="spanfont"> <a href="china.html"class="spanfont a2">More Info</a></p></div>
+            </div>
+        </div>
+        </div>
+         <div class="div3">
+            <div class="div3sub"> <img src="jerry.webp"class="storeimage"></div>
+        <div class="div3sub2">
+            <div class="div7"> <p class="para10">Teddy and HIS BEST FRIEND JERRY</p></div>
+            <div class="div8"><p class="para11">KKingston and Princeton learn all about how Teddy looked after his best friend Jerry....</p></div>
+            <div class="div9"><p class="para12">$12.99 </p> </div>
+            <div class="div6">
+                <div class="div6subdiv"><p class="spanfont"> <a href="cart6.html"class="spanfont a2">Add to Cart</a></p></div>
+                <div class="div6subdiv1"><p class="spanfont"> <a href="jerrry.html"class="spanfont a2">More Info</a></p></div>
+            </div>
+        </div>
+         </div>
+          <div class="div3">
+            <div class="div3sub"> <img src="corns.webp"class="storeimage"></div>
+        <div class="div3sub2">
+           <div class="div7"> <p class="para10">Teddy and the CORN STAND</p></div>
+            <div class="div8"><p class="para11">Kingston and Princeton start their ﬁrst business—a corn stand! Grandpa Teddy helps them solve...</p></div>
+            <div class="div9"><p class="para12">$12.99 </p> </div>
+            <div class="div6">
+                <div class="div6subdiv"><p class="spanfont"> <a href="cart7.html"class="spanfont a2">Add to Cart</a></p></div>
+                <div class="div6subdiv1"><p class="spanfont"> <a href="corn.html"class="spanfont a2">More Info</a></p></div>
+            </div>
+        </div>
+          </div>
+           <div class="div3">
+            <div class="div3sub"> <img src="puppy.webp"class="storeimage"></div>
+        <div class="div3sub2">
+            <div class="div7"> <p class="para10">Teddy gets a PUPPY</p></div>
+            <div class="div8"><p class="para11">Princeton and Kingston go with Grandpa Teddy to adopt a puppy! They'll give her...</p></div>
+            <div class="div9"><p class="para12">$12.99 </p> </div>
+            <div class="div6">
+                <div class="div6subdiv"><p class="spanfont"> <a href="cart8.html"class="spanfont a2">Add to Cart</a></p></div>
+                <div class="div6subdiv1"><p class="spanfont"> <a href="puppy.html"class="spanfont a2">More Info</a></p></div>
+            </div>
+        </div>
+           </div>
+            <div class="div3">
+                <div class="div3sub"> <img src="snow.webp"class="storeimage"></div>
+        <div class="div3sub2">
+            <div class="div7"> <p class="para10">Teddy plays in the SNOW</p></div>
+            <div class="div8"><p class="para11">Princeton and Kingston are spending the weekend with Grandpa Teddy. They'll ski and snowmobile...</p></div>
+            <div class="div9"><p class="para12">$12.99 </p> </div>
+            <div class="div6">
+                <div class="div6subdiv"><p class="spanfont"> <a href="cart9.html"class="spanfont a2">Add to Cart</a></p></div>
+                <div class="div6subdiv1"><p class="spanfont"> <a href="snow.html"class="spanfont a2">More Info</a></p></div>
+            </div>
+        </div>
+            </div>
+             <div class="div3">
+                <div class="div3sub"> <img src="money.webp"class="storeimage"></div>
+        <div class="div3sub2">
+            <div class="div7"> <p class="para10">Teddy says MONEY DOESN'T GROW ON TREES</p></div>
+            <div class="div8"><p class="para11">Kingston and Princeton want new toys, a phone, and lots of ice cream. But...</p></div>
+            <div class="div9"><p class="para12">$12.99 </p> </div>
+            <div class="div6">
+                <div class="div6subdiv"><p class="spanfont"> <a href="cart10.html"class="spanfont a2">Add to Cart</a></p></div>
+                <div class="div6subdiv1"><p class="spanfont"> <a href="money.html"class="spanfont a2">More Info</a></p></div>
+            </div>
+        </div>
+             </div>
+              <div class="div3"id="bgcard">
+               <div class="div10 padding2">    
+                        <img src="book33.webp"class="image">
+                    </div>
+        <div class="div11">
+            <div class="div12">
+                <p class="para13">Volume 1 Bundle.Save 20%</p>
+            </div>
+            <div class="div13">
+                <p class="para14">$49.99</p>
+            </div>
+            <div class="div13">
+                <p class="para15">$64.95</p>
+            </div>
+            <div class="div14">
+                <div class="add3">
+                    <p class="spanfont">Add to Cart</p>
+                </div>
+            </div>
+        </div>
+              </div>
+               <div class="div3"id="bgcard">
+                <div class="div10 padding2">    
+                        <img src="book44.webp"class="image">
+                    </div>
+        <div class="div11">
+            <div class="div12">
+                <p class="para13">Volume 2 Bundle.Save 20%</p>
+            </div>
+            <div class="div13">
+                <p class="para14">$49.99</p>
+            </div>
+            <div class="div13">
+                <p class="para15">$64.95</p>
+            </div>
+            <div class="div14">
+                <div class="add3">
+                    <p class="spanfont">Add to Cart</p>
+                </div>
+            </div>
+        </div>
+               </div>
+                <div class="div3"id="bgcard">
+                    <div class="div10 padding2">    
+                        <img src="book11.webp"class="image">
+                    </div>
+        <div class="div11">
+            <div class="div12">
+                <p class="para13">Get the 10 Books Bundle Collection & Save 30%</p>
+            </div>
+            <div class="div13">
+                <p class="para14">$89.99</p>
+            </div>
+            <div class="div13">
+                <p class="para15">$129.90</p>
+            </div>
+            <div class="div14">
+                <div class="add3">
+                    <p class="spanfont">Add to Cart</p>
+                </div>
+            </div>
+        </div>
+                </div>
+</div>
+</div>   
+    </div>
+    
+</body>
